@@ -60,7 +60,7 @@
     position: relative;
   }
   body .area.-danger {
-    background-color: #e74c3c;
+    background-color: #2ecc71;
   }
   body .area.-danger .shape,
   body .area.-danger .code header .dots span {

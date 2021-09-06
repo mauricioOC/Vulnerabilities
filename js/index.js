@@ -4,11 +4,11 @@ const spaceLine = document.querySelector(".status__line span");
 const area = document.querySelector(".area");
 const message = document.querySelector(".status__message");
 
-input.addEventListener("keyup", ({ target: { value } }) => {
+input.addEventListener() => {
   shapes.forEach((shape) => (shape.style.margin = `0 ${value}px`));
   const val = Number(value) | 0;
   updateSpaceLine(val);
-
+}
   if (val == 0) {
     addClassToArea(`-safe`);
     updateMessage(`Good job! no vulnerabilities detected`);
